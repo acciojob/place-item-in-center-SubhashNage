@@ -1,32 +1,20 @@
 
 /* Your CSS Code here. */
-/* CSS code for the .holder element */
-
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f0f0f0;
-}
-
+/* Apply these styles to the holder */
 .holder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
+    display: flex;            /* Use flexbox layout */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    width: 100vw;             /* Take full viewport width */
+    height: 100vh;            /* Take full viewport height */
 }
 
+/* Apply these styles to item-1 */
 .item-1 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    color: white;
+    width: 100px;             /* Set width to 100px */
+    height: 100px;            /* Set height to 100px */
+    background-color: red;    /* Set the background color to red */
+    display: flex;            /* Use flexbox layout within item-1 */
+    justify-content: center;  /* Center horizontally within item-1 */
+    align-items: center;      /* Center vertically within item-1 */
 }
